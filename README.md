@@ -1,17 +1,20 @@
-# Smoothly RRT
+# SmoothlyRRT
 
-基于RRT的连续曲率轨迹生成算法。。
+Used to run 2D path-planning with static obstacles and generate visual results and (relative) runtime of traditional RRT and Smoothly RRT.
 
-## 使用
+# How to use
 
-1. 配置好Python3开发环境并安装 requirements.txt 文件中列举的包。
-2. 在 utils/configs.py 中设定好初始位置和终止位置等参数后，运行 main.py。
-3. 单击鼠标左键添加障碍物（注意不可离起始位置和终止位置过近以免影响随机树生成），再次单击则停止添加；单击鼠标中键清空已有障碍物；单击鼠标右键开始生成轨迹。
+1. Learn how to use Python.
+2. Set the parameters in `config.py1` (optional).
+3. run `main.py`. If the program does not load or freezes at any time, close it and rerun `main.py`.
+4. Do things such as:
+   1. Press SPACE to switch between Traditional RRT and S-RRT.
+   2. Press ESC to exit simulation.
+   3. Middle click to clear the obstacle data.
+   4. Right click to generate results.
+   5. Left click to add obstacles.
+5. See results on the S-RRT window and on the terminal.
 
-最终结果如下图所示，其中绿线是根据RRT生成的路径，红线是优化后得到的路径，其上红色的点为样条曲线的控制点，蓝线则为根据这些控制点计算得到的B样条曲线，也就是生成的轨迹。
-
-<img src="docs/example.PNG" alt="生成的轨迹" width=666>
-
-## Reference
+# Reference
 
 Wei K, Ren B. A method on dynamic path planning for robotic manipulator autonomous obstacle avoidance based on an improved RRT algorithm[J]. Sensors, 2018, 18(2): 571.
