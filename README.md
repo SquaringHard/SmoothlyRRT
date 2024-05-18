@@ -18,3 +18,5 @@ Used to run 2D path-planning with static obstacles and generate visual results a
 # Reference
 
 Wei K, Ren B. A method on dynamic path planning for robotic manipulator autonomous obstacle avoidance based on an improved RRT algorithm[J]. Sensors, 2018, 18(2): 571.
+
+https://github.com/zw007981/SmoothlyRRT
