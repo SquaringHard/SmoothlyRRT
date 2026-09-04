@@ -2,6 +2,8 @@
 
 Used to run 2D path-planning with static obstacles and generate visual results and (relative) runtime of traditional RRT and Smoothly RRT.
 
+<img width="500" height="300" alt="demo" src="https://github.com/user-attachments/assets/e48a6cc0-a09c-4319-8b75-6c12cb8069f5" />
+
 # How to use
 
 1. Learn how to use Python.
